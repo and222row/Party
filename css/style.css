@@ -1,0 +1,185 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  color: white;
+  position: relative;
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+  }
+
+  .side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+    .close-btn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    a {
+      padding: 20px 8px 20px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+      color: white;
+
+      &:hover {
+        color: rgba(214, 46, 51, 0.4);
+      }
+    }
+  }
+  .content {
+    height: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+    h2 {
+      font-size: 60px;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    span {
+      font-size: 30px;
+      cursor: pointer;
+    }
+  }
+}
+
+.slider {
+  width: 50%;
+  margin: 100px auto;
+
+  span {
+    margin-inline: auto;
+    color: white;
+    font-size: 1.75rem;
+  }
+
+  .accordion-button::after {
+    display: none;
+  }
+  .accordion-button:not(.collapsed),
+  .accordion-button {
+    background-color: rgba(214, 46, 51, 0.6);
+  }
+  .accordion-body {
+    background-color: #ccc;
+  }
+}
+
+.count {
+  background-image: url(../images/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  min-height: 330px;
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    .container {
+      padding: 100px 0px;
+
+      .inner {
+        padding: 50px;
+        border: 1px solid #fff;
+        font-weight: 500;
+        font-size: 30px;
+      }
+    }
+  }
+}
+.contact {
+  .container {
+    padding: 100px 0px;
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 35px;
+      color: #444;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #777;
+      font-weight: 300;
+      font-size: 16px;
+    }
+    h3 {
+      color: #444;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .icons {
+      margin-top: 50px;
+
+      p {
+        margin-bottom: 35px;
+      }
+    }
+    .social-list {
+      margin-top: 60px;
+      color: #777;
+
+      i {
+        margin-right: 10px;
+        border: 1px solid #999;
+        width: 40px;
+        height: 40px;
+        line-height: 42px;
+        cursor: pointer;
+        text-align: center;
+      }
+    }
+
+    form textarea,
+    form input {
+      margin-bottom: 20px;
+    }
+    form textarea {
+      height: 200px;
+    }
+    .chars {
+      font-size: 20px;
+      color: #d62e33;
+    }
+    button {
+      background-color: #d62e33;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 0;
+      text-transform: uppercase;
+      display: block;
+      margin-top: 20px;
+    }
+  }
+}
+.w-235 {
+  width: 235px !important;
+}
